@@ -1,0 +1,17 @@
+googleTweets    
+(left,right) match {
+      case (l:Empty,r:Empty) => elem 
+      case others => if(elem.retweets > this.remove(elem).mostRetweeted.retweets) elem else this.remove(elem).mostRetweeted.retweets 
+    }
+    
+    
+    
+    val leftMost = left match {
+      case e: Empty => elem
+      case n: NonEmpty => if(elem.retweets > n.mostRetweeted.retweets) elem else n.mostRetweeted     
+    }
+    val rightMost = right match {
+      case e: Empty => elem
+      case n: NonEmpty => if(elem.retweets > n.mostRetweeted.retweets) elem else n.mostRetweeted     
+    }
+   if( leftMost.retweets > rightMost.retweets) leftMost else rightMost 

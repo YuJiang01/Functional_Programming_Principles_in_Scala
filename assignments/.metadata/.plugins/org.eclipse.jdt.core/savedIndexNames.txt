@@ -1,0 +1,25 @@
+INDEX VERSION 1.129+/Users/yujiang/classes/scala/assignments/.metadata/.plugins/org.eclipse.jdt.core
+2080566857.index
+3168728523.index
+3481797337.index
+344995080.index
+1814655393.index
+1968757612.index
+2761982052.index
+2123166232.index
+2228031085.index
+2022661902.index
+964931301.index
+1507667761.index
+2856596627.index
+3381098740.index
+3408081233.index
+3017564532.index
+998348047.index
+167792666.index
+2280920603.index
+1550076400.index
+2524051225.index
+2300095105.index
+3021270050.index
+2780326644.index
